@@ -10,7 +10,7 @@
 
 #wrapper{
     width: 970px;
-    height: 970px;
+    padding-bottom: 6px;
     background: linear-gradient(#245077, #3474ac);
 }
 
@@ -20,6 +20,10 @@
 
 .black{
     color: black;
+}
+
+.blue{
+    color: #7faed8;
 }
 
 #logo{
@@ -32,7 +36,7 @@
     display: inline-block;
     vertical-align: top;
     margin: 8px;
-    margin-left: 252px;
+    margin-left: 272px;
 }
 
 #ttopr{
@@ -41,7 +45,7 @@
 }
 
 #searchbar{
-    padding: 13px 50px;
+    padding: 13px 40px;
     background-color: #444444;
     text-align: center;
     border-radius: 10px;
@@ -73,9 +77,6 @@
     box-shadow: 3px 3px 2px #272727;
     border-radius: 7px;
     text-align: center;
-    
-
-
 }
 
 #topbar > a{
@@ -110,6 +111,7 @@
     padding: 10px;
     text-align: center;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 #zenlist{
@@ -117,10 +119,109 @@
     font-size: 18px;
     font-style: italic;
     line-height: 32px;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 #zen{
     font-size: 16px;
     margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+#sub{
+    background-color: white;
+    border-top: inset black 1px;
+    border-bottom: inset black 1px;
+}
+
+#start{
+    display: inline-block;
+    margin: 10px;
+    margin-left: 100px;
+    border-top: #73a7d5 solid 3px;
+    width: 380px;
+    text-align: center;
+}
+
+.subhead{
+    font-size: 16px;
+    margin: 6px;
+}
+
+#start > ul > li a{
+    color: #7faed8;
+    text-decoration: none;
+}
+
+#start > ul > li{
+    line-height: 20px;
+    color: black;
+}
+
+#start > p{
+    width: 250px;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+#start > ul{
+    margin: 8px;
+    margin-left: 87px;
+    width: 200px;
+    list-style-type: square;
+}
+
+#apps{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border-top: #73a7d5 solid 3px;
+    width: 380px;
+    text-align: center;
+}
+#apps > ul > li a{
+    color: #7faed8;
+    text-decoration: none;
+}
+
+#apps > ul > li{
+    line-height: 20px;
+    color: black;
+}
+
+#apps > p{
+    width: 250px;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+#apps > ul{
+    margin: 8px;
+    margin-left: 95px;
+    width: 200px;
+    list-style-type: square;
+}
+
+#little{
+    color: #7faed8;
+    font-size: 11px;   
+    text-decoration: none; 
+}
+
+#footer{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer > a{
+    margin: 20px;
+    color: #7fb1de;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#footer > p{
+    color: #7fb1de;
+    font-size: 10px;
+    margin-top: 12px;
 }

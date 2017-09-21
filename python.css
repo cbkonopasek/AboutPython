@@ -83,3 +83,44 @@
     text-decoration: none;
     margin: 0 18px;
 }
+
+#nav{
+    display: inline-block;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 22px;
+}
+
+#nav > ul{
+}
+
+#nav > ul > li{
+    margin: 10px;  
+    color: #dabd40;    
+}
+
+#nav > ul > li > a{
+    font-size: 15px;
+}
+
+#mainbody{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#zenlist{
+    color: #f4cd34;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+#zen{
+    font-size: 16px;
+    margin-top: 8px;
+}
